@@ -9,7 +9,11 @@ mainpitch:
   description: スケーラブルな世界を目指して
 description: aaaa
 intro:
-  blurbs: []
+  blurbs:
+    - text: 1 blurbs
+      image: /img/image4.png
+    - text: 2 burlbs
+      image: /img/flavor_wheel.jpg
   heading: What we offer
   description: Description
 main:
