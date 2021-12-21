@@ -10,108 +10,132 @@ tags:
   - React
   - Netlify
 ---
-# 華麗なるGatsby
+# Gatsby/Netlifyでモダンブログを構築する
 
-レオナルド・ディカプリオ
+今回は手を動かしながらブログを構築・公開までを行っていきます。
 
-ほんとダンディで素敵ですよね。
+# 前提知識
 
-"Gatsby"と聞いて「華麗なるギャツビー」を思い浮かべる人も多いかと思います。
+Gatsbyを使ってブログを作成するのはWordpressより難易度が高いです。
 
-そんな"Gatsby"の名を冠したライブラリがGatsby.jsです。
+その分カスタマイズ性に優れます。
 
-<a name="Gatsby.js">https://www.gatsbyjs.com/</a>
+そのため、下記の知識があることを前提に進めます。
 
+* Git
+* HTML/JavaScript/CSS
+* (あると嬉しい)React
 
-# Gatsby.js
+# 事前準備
 
-Gatsby.jsは**React**で作られた**静的サイトジェネレーター**です。
+下記サイトのユーザー登録を済ませてください。
+全て無料です。
 
-## React
+* Github([https://github.com/)](https://github.com/)
+* Netlify([https://www.netlify.com/)](https://www.netlify.com/)
 
-Reactに関してはよく説明された資料が多くあるから、多くは語りません。
+# Gatsbyのテーマ選定
 
-https://qiita.com/TsutomuNakamura/items/72d8cf9f07a5a30be048
+Gatsbyのテーマは[ここで検索できます](https://jamstackthemes.dev/ssg/gatsby/)。
 
-フロントエンドの機能をまとめたライブラリです。
+テーマの数は232個とありまり多くありません。さらにメンテナンスがされているものだとさらに少ないです。
 
-AngularJSよりも私は好きです。
+そのため、Gatsbyを使うにはテーマを拡張できるスキルが必要となります。
 
+今回はブログ構築にあたり、[gatsby-netlifycms-starter-template](https://github.com/simarmannsingh/gatsby-netlifycms-starter-template)
 
+選定した理由は、下記の3つです。
 
-## 静的サイトジェネレーター
+* Netlify CMSをサポートしており、CMSを通して記事の入稿ができる。
+* Blogのタグ検索ができる。
+* メンテナンスがきちんとされている。
 
+デモは[こちらからアクセス](https://gatsby-netlifycms-modern-template.netlify.app/)できます。
 
-このブログもgatsbyjsで作成しており、**画面遷移時にリロードが全く入らない**のに気がつくと思います。これが静的サイトの特徴です。
+# ブログ構築から公開まで
 
-<br/>
+ここからブログ構築から公開まで一気に進んでいきます。
 
-静的サイトの何が良いのか? 
+**公開するだけであればたった3ステップだけで出来ます**。
 
-一言で語るのは難しいですが、全てのコンテンツを一つに固めて配信するので、キャッシュサーバーとの相性が抜群であり、**スケーラブルなコンテンツ配信**ができます。
+## Welcome to Netlify
 
-そして**Netlify**という静的サイトを配信することに特化したWEBサイトのホスティングサービスを使えば、**なんと無料でモダンブログを作成することができます。**
+下記リンクを押すと、Netlifyにブログをデプロイするまで実施できます。
 
-このサイトも無料で運営しています。
+[ブログのデプロイを行う](https://app.netlify.com/start/deploy?repository=https://github.com/simarmannsingh/gatsby-netlifycms-starter-template&stack=cms)
 
+### Githubとの連携
 
+最初の画面はGithubとの連携設定です
 
-# **Netlify**
+今回公開するGatsbyに関わるリソースは全てGithubに配置され、管理されます。
 
-Netlifyに関してもここでは多くは語りません。
+右下の"Connect to Github"からGithubとの連携設定を行なってください。
 
-それほど簡単に使えるからです。ハンズオンの時に開設します。
+![Netlifxy](/img/スクリーンショット-2021-12-20-22.26.11.png "Netlifxy")
 
+### リソースのPush&Deploy
 
+Githubとの連携が完了すると、リソースのSave&Deployに遷移します。
 
-# なぜGatsby/Netlifyでブログを構築するのか?
+ここでは適当なリポジトリ名を入れて、"Save&Deploy"をクリックしてください。
 
-ブログといえばWordpress、私もWordpressでブログを運営していたことがありました。Wordpressと比較してGatsby/Netlifyは何が良いのでしょうか?
+GithubへのPush(Save)が始まり、GatsbyにDeployまで自動で実行されます。
 
-## 1. 制限なく、無料で開設できる
+![Netlify2](/img/fireshot-capture-074-welcome-to-netlify-get-your-gatsby-site-in-1-min.-netlify_-app.netlify.com.png "Netlify2")
 
-ホスティングにはNetlifyを使用しますが、特徴として下記があります。
+### ブログにアクセスしてみる
 
-* 無料SSL
-* 無料CDN
-* 転送量: 100GB/月
-* ストレージ: 100GB
-* リクエスト制限: 500 requests/分
+GithubにPushが完了すると、Netlifyで自動的にビルドが開始され、完了すると自動的にNetlifyの管理画面に遷移します。
 
-個人で開設するには全く問題ありません。
+遷移後の画面で下記のようなURLをクリックしてください、ブログにアクセスできるはずです。
 
-## 2. モダンなUI/UX
+![](/img/naccess.png)
 
-Wordpressで嫌いなのが、誰が作ってもWordpressのデザインになることです。
+## ブログを追加してみる
 
-1世代前の、モッタリとしたUI/UXにうんざりします。
+早速ブログを追加してみましょう。
 
-その点Gatsbyはサクサク動き、モダンなUI/UXを実現できます。
+## CMSの管理画面にアクセス&ログイン
 
-さらにさまざまなThemeが用意されており、ブログだけでなくショップ等さまざまなサイトを構築可能です。
+発行されたURLに"/admin"を追加すると、CMS管理画面にアクセスできます。
 
-例えば、UKのナショナルジオグラフィックはGatsbyを採用しています。
+https://[ここはユーザー毎に違います].netlify.app/admin/
 
-あのナショナルジオグラフィックに採用されてるとは、本当にすごい。
+ログイン画面に遷移しますので、ここではNetlifyのアカウントID/パスワードを入力してください。
 
-https://www.nationalgeographic.co.uk/
+![CMS1](/img/fireshot-capture-076-content-manager-dazzling-saha-2ee284.netlify.app.png "CMS1")
 
+## ブログの追加
 
+ブログを投稿してみましょう。
 
-## 3. カスタマイズ性
+"New Blog"から投稿できます。
 
-Wordpressは有志によりさまざまなアドオンが用意されておりますが、JavaScriptを使ったフロントエンドをガリガリ描くのには適してません。
+適当な記事を書いて投稿してみてください。 
 
-その点GatsbyはReactを書ければどんなようにもカスタマイズ可能、自由自在です。
+しばらく経ってからブログにアクセスすると、新しいブログが公開されているはずです。
 
-そのため、少しでもフロントエンドに関する知識のあるエンジニアはWordpressではなく絶対にGatsbyにするべきです。
+![](/img/fireshot-capture-077-content-manager-dazzling-saha-2ee284.netlify.app.png)
 
+# 補足情報
 
+## ブログの公開を押すと何が起こるのか?
 
+ブログの公開を押すと、リソースのPush&Deploy&Build&Publishのフローが自動的に起こります。
 
+1. 追加されたブログの記事は自動的に作成されたリポジトリのsrc/pages/blogにPushされます。
+2. 新しいリソースがPushされると、Netlifyで自動的にビルドが開始されます。その様子はNetlifyの管理画面から確認できます。
+
+![](/img/スクリーンショット-2021-12-20-22.48.06.png)
+
+3. Buildが完了すると自動的にデプロイされます。
+
+素晴らしいですね。理想的なDevOpsです。
 
 # まとめ
+今日はブログの公開まで実施しました。
 
-今回はGatsbyとNetlifyの簡単な紹介でした。
+ブログの投稿はできましたが、サイトロゴなどまだまだカスタマイズしなくてはならないところがあります。
 
-次回はこの2つを使って実際にブログを構築してみたいと思います。
+そのため、次回はサイトのカスタマイズを実施していきます。
