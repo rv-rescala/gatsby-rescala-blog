@@ -42,15 +42,18 @@ Gatsbyのテーマは[ここで検索できます](https://jamstackthemes.dev/ss
 
 そのため、Gatsbyを使うにはテーマを拡張できるスキルが必要となります。
 
-今回はブログ構築にあたり、[gatsby-netlifycms-starter-template](https://github.com/simarmannsingh/gatsby-netlifycms-starter-template)
+今回はブログ構築にあたり、[gatsby-starter-netlify-cms](https://github.com/netlify-templates/gatsby-starter-netlify-cms)を使用したいと思います。
 
-選定した理由は、下記の3つです。
+選定した理由は、下記の4つです。
 
-* Netlify CMSをサポートしており、CMSを通して記事の入稿ができる。
-* Blogのタグ検索ができる。
-* メンテナンスがきちんとされている。
+1. Netlify CMSをサポートしており、CMSを通して記事の入稿ができる。
+2. Gatsby v4をサポートしている。
+3. Blogのタグ検索ができる。
+4. メンテナンスがきちんとされている。
 
-デモは[こちらからアクセス](https://gatsby-netlifycms-modern-template.netlify.app/)できます。
+デモは[こちらからアクセス](https://gatsby-netlify-cms.netlify.app/)できます。
+
+(デモに出てくるKALDIは、輸入ショップのKALDIなのですかね)
 
 # ブログ構築から公開まで
 
@@ -60,9 +63,9 @@ Gatsbyのテーマは[ここで検索できます](https://jamstackthemes.dev/ss
 
 ## Welcome to Netlify
 
-下記リンクを押すと、Netlifyにブログをデプロイするまで実施できます。
+下記リンクを押すと、Netlifyにブログをデプロイから公開するまで実施できます。
 
-[ブログのデプロイを行う](https://app.netlify.com/start/deploy?repository=https://github.com/simarmannsingh/gatsby-netlifycms-starter-template&stack=cms)
+[ブログのデプロイを行う](https://app.netlify.com/start/deploy?repository=https://github.com/AustinGreen/gatsby-starter-netlify-cms&stack=cms)
 
 ### Githubとの連携
 
@@ -100,7 +103,7 @@ GithubにPushが完了すると、Netlifyで自動的にビルドが開始され
 
 発行されたURLに"/admin"を追加すると、CMS管理画面にアクセスできます。
 
-https://[ここはユーザー毎に違います].netlify.app/admin/
+https://\[ここはユーザー毎に違います].netlify.app/admin/
 
 ログイン画面に遷移しますので、ここではNetlifyのアカウントID/パスワードを入力してください。
 
@@ -134,6 +137,7 @@ https://[ここはユーザー毎に違います].netlify.app/admin/
 素晴らしいですね。理想的なDevOpsです。
 
 # まとめ
+
 今日はブログの公開まで実施しました。
 
 ブログの投稿はできましたが、サイトロゴなどまだまだカスタマイズしなくてはならないところがあります。
