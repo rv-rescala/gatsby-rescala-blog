@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Gatsby/Netlifyでモダンブログを構築する①
+title: Gatsby/Netlifyでモダンブログを構築する 1
 date: 2021-12-20T11:25:05.560Z
 description: Gatsby/Netlifyでモダンブログを開設する方法
 featuredpost: true

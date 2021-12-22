@@ -1,13 +1,16 @@
 ---
 templateKey: index-page
 title: Re-Scalable
-image: /img/image1.png
+image: /img/wallpaperbetter.jpg
 heading: ReScala
 subheading: Dive into scalable world
 mainpitch:
   title: スケーラブルな世界へ
-  description: スケーラブルでないビジネスやシステムは最後に必ず破綻します。私たちは常に「スケーラビリティ」に主眼を置き、サービスを提供していくことを誓います。
-description: BigData&MachineLearningを中心に置き、DataDrivenでWeb/投資/金融工学/メディア領域のスケーラブルなソリューションを提供していきます。
+  description: |-
+    スケーラブルでないビジネスやシステムは最後に必ず破綻します。
+    常に「スケーラビリティ」に主眼を置き、サービスを提供していくことを誓います。
+description: Big Data Engineering&Machine
+  Learningを中心に、DataDrivenでWeb/投資/金融工学/メディア領域のスケーラブルなソリューションを提供していきます。
 intro:
   blurbs:
     - text: 1 blurbs

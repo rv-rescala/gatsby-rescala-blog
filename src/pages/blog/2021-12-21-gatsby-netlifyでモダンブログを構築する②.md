@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
-title: Gatsby/Netlifyでモダンブログを構築する②
+title: Gatsby/Netlifyでモダンブログを構築する 2
 date: 2021-12-20T11:26:05.560Z
-description: Gatsby/Netlifyでモダンブログを開設する方法
+description: 今回は手を動かしながらブログの公開までを行っていきます。
 featuredpost: true
 featuredimage: /img/gatsby_title.jpeg
 tags:
@@ -10,10 +10,6 @@ tags:
   - React
   - Netlify
 ---
-# Gatsby/Netlifyでモダンブログを構築する
-
-今回は手を動かしながらブログを構築・公開までを行っていきます。
-
 # 前提知識
 
 Gatsbyを使ってブログを作成するのはWordpressより難易度が高いです。
