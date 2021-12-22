@@ -12,11 +12,7 @@ mainpitch:
 description: Big Data Engineering&Machine
   Learningを中心に、DataDrivenでWeb/投資/金融工学/メディア領域のスケーラブルなソリューションを提供していきます。
 intro:
-  blurbs:
-    - text: 1 blurbs
-      image: /img/image4.png
-    - text: 2 burlbs
-      image: /img/flavor_wheel.jpg
+  blurbs: []
   heading: ここには何も入らない
   description: ここには何も入らない
 main:
