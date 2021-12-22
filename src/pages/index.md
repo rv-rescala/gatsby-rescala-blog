@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Re-Scalable
-image: /img/image1.png
+image: /img/wallpaperbetter.jpg
 heading: ReScala
 subheading: Dive into scalable world
 mainpitch:
