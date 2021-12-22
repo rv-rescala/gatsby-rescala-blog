@@ -8,9 +8,9 @@ mainpitch:
   title: スケーラブルな世界へ
   description: |-
     スケーラブルでないビジネスやシステムは最後に必ず破綻します。
-
-    私たちは常に「スケーラビリティ」に主眼を置き、サービスを提供していくことを誓います。
-description: BigDataEngineering&MachineLearningを中心に、DataDrivenでWeb/投資/金融工学/メディア領域のスケーラブルなソリューションを提供していきます。
+    常に「スケーラビリティ」に主眼を置き、サービスを提供していくことを誓います。
+description: Big Data Engineering&Machine
+  Learningを中心に、DataDrivenでWeb/投資/金融工学/メディア領域のスケーラブルなソリューションを提供していきます。
 intro:
   blurbs:
     - text: 1 blurbs
