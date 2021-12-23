@@ -9,8 +9,8 @@ mainpitch:
   description: |-
     スケーラブルでないビジネスやシステムは最後に必ず破綻します。
     常に「スケーラビリティ」に主眼を置き、サービスを提供していくことを誓います。
-description: Big Data Engineering&Machine
-  Learningを中心に、DataDrivenでWeb/投資/金融工学/メディア領域のスケーラブルなソリューションを提供していきます。
+description: フルスタックなソフトウェアスキルをもとに、Big Data Engineering&Machine
+  Learningを軸として、金融・保険/メディア/Web&アプリ領域のスケーラブルなソリューションを提供していきます。
 intro:
   blurbs: []
   heading: ここには何も入らない
