@@ -32,12 +32,19 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
-testimonials: []
+testimonials:
+  - quote: test
+    author: t
 full_image: /img/products-full-width.jpg
 pricing:
   heading: Monthly subscriptions
   description: We make it easy to make great coffee a part of your life. Choose
     one of our monthly subscription plans to receive great coffee at your
     doorstep each month. Contact us about more details and payment info.
-  plans: []
+  plans:
+    - plan: test
+      price: test
+      description: yesy
+      items:
+        - su
 ---
