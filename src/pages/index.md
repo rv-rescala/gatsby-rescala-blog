@@ -12,7 +12,9 @@ mainpitch:
 description: フルスタックなソフトウェアスキルを土台に、Big Data Engineering&Machine
   Learningを幹として、金融・保険/メディア/Web&アプリ領域のスケーラブルなソリューションを提供していきます。
 intro:
-  blurbs: []
+  blurbs:
+    - image: /img/apple-touch-icon.png
+      text: aaa
   heading: ここには何も入らない
   description: ここには何も入らない
 main:
