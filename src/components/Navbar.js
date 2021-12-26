@@ -69,11 +69,11 @@ const Navbar = class extends React.Component {
               </Link>
               <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">
-                  Product
+                  Products
                 </a>
                 <div class="navbar-dropdown">
                   <a class="navbar-item">
-                    Web Scraiping
+                    Web Scraping
                   </a>
                   <a class="navbar-item">
                     Datalake
