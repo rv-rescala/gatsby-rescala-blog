@@ -13,7 +13,7 @@ description: フルスタックなソフトウェアスキルを土台に、Big 
   Learningを幹として、金融・保険/メディア/Web&アプリ領域のスケーラブルなソリューションを提供していきます。
 intro:
   blurbs:
-    - image: /img/webscraiping.png
+    - image: /img/web_scraiping.png
       text: |-
         中間者攻撃を応用したWeb Scraping技術でどのようなサイトからも必要な情報を抜き出します。
         証券会社や銀行のWebログイン機構を抽象化して、APIでの提供が可能です。
