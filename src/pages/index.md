@@ -25,6 +25,8 @@ intro:
         workflowを構築し、スケーラブルなMLOpsに対応します。Kaggleに関する情報も発信していきます。
     - image: /img/finance_insurance.png
       text: スクレイピングで取得した情報の提供サイトや、高度な金融モデルのライブラリ、自動売買プログラムを提供していきます。アクチュアリーや統計検定など確率統計分野の情報発信もしていきます。
+    - image: /img/media.png
+      text: Twitterやinstagramなどのソーシャルメディア分析だけでなく、映像メディア配信・再生アプリケーションを提供していきます。
   heading: ここには何も入らない
   description: ここには何も入らない
 main:
