@@ -67,9 +67,31 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/about">
                 About
               </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  Product
+                </a>
+                <div class="navbar-dropdown">
+                  <a class="navbar-item">
+                    Web Scraiping
+                  </a>
+                  <a class="navbar-item">
+                    Datalake
+                  </a>
+                  <a class="navbar-item">
+                    Machine Learning
+                  </a>
+                  <a class="navbar-item">
+                    Finance and Insurance
+                  </a>
+                  <a class="navbar-item">
+                    Media
+                  </a>
+                  <a class="navbar-item">
+                    Web and Mobile
+                  </a>
+                </div>
+              </div>
               <Link className="navbar-item" to="/blog">
                 Blog
               </Link>
