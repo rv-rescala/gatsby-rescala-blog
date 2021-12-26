@@ -20,6 +20,9 @@ intro:
     - text: AWS上にスケーラブルなDatalakeを構築し、多種多様なデータソースからのデータ取得から、Apache
         Sparkを用いたETL、BIツール可視化まで一貫して開発します。
       image: /img/datalake.png
+    - image: /img/machine_learning.png
+      text: 画像処理や音声認識、テキスト分析など幅広い機械学習のプロダクトを提供します。特に、SageMaker上でML
+        workflowを構築し、スケーラブルなMLOpsに対応します。Kaggleに関する情報も発信していきます。
   heading: ここには何も入らない
   description: ここには何も入らない
 main:
