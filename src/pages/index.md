@@ -17,6 +17,9 @@ intro:
       text: |-
         中間者攻撃を応用したWeb Scraping技術でどのようなサイトからも必要な情報を抜き出します。
         証券会社や銀行のWebログイン機構を抽象化して、APIでの提供が可能です。
+    - text: AWS上にスケーラブルなDatalakeを構築し、多種多様なデータソースからのデータ取得から、Apache
+        Sparkを用いたETL、BIツール可視化まで一貫して開発します。
+      image: /img/datalake.png
   heading: ここには何も入らない
   description: ここには何も入らない
 main:
