@@ -14,14 +14,13 @@ tags:
 
 レオナルド・ディカプリオ
 
-ほんとダンディで素敵ですよね。
+ダンディの化身ですね。
 
 "Gatsby"と聞いて「華麗なるギャツビー」を思い浮かべる人も多いかと思います。
 
 そんな"Gatsby"の名を冠したライブラリがGatsby.jsです。
 
 <a name="Gatsby.js">https://www.gatsbyjs.com/</a>
-
 
 # Gatsby.js
 
@@ -37,10 +36,7 @@ https://qiita.com/TsutomuNakamura/items/72d8cf9f07a5a30be048
 
 AngularJSよりも私は好きです。
 
-
-
 ## 静的サイトジェネレーター
-
 
 このブログもgatsbyjsで作成しており、**画面遷移時にリロードが全く入らない**のに気がつくと思います。これが静的サイトの特徴です。
 
@@ -54,15 +50,11 @@ AngularJSよりも私は好きです。
 
 このサイトも無料で運営しています。
 
-
-
 # **Netlify**
 
 Netlifyに関してもここでは多くは語りません。
 
 それほど簡単に使えるからです。ハンズオンの時に開設します。
-
-
 
 # なぜGatsby/Netlifyでブログを構築するのか?
 
@@ -96,8 +88,6 @@ Wordpressで嫌いなのが、誰が作ってもWordpressのデザインにな�
 
 https://www.nationalgeographic.co.uk/
 
-
-
 ## 3. カスタマイズ性
 
 Wordpressは有志によりさまざまなアドオンが用意されておりますが、JavaScriptを使ったフロントエンドをガリガリ描くのには適してません。
@@ -105,10 +95,6 @@ Wordpressは有志によりさまざまなアドオンが用意されており�
 その点GatsbyはReactを書ければどんなようにもカスタマイズ可能、自由自在です。
 
 そのため、少しでもフロントエンドに関する知識のあるエンジニアはWordpressではなく絶対にGatsbyにするべきです。
-
-
-
-
 
 # まとめ
 
