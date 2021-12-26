@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import github from "../img/github-icon.svg";
 import logo from "../img/logo.svg";
+import twitter from "../img/social/twitter.svg";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -75,19 +76,26 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact">
                 Contact
               </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
             </div>
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                href="https://github.com/rv-rescala"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span className="icon">
                   <img src={github} alt="Github" />
+                </span>
+              </a>
+              <a
+                className="navbar-item"
+                href="https://twitter.com/RescalaRv"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={twitter} alt="twitter" />
                 </span>
               </a>
             </div>
